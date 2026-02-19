@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vítor</title>
+</head>
+
+<body>
+    <header>
+        <h1>Vítor</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <!-- <li>Sobre mim</li> -->
+            </ul>
+        </nav>
+    </header>
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <img src="https://hubify.com.br/wp-content/uploads/2017/04/criar-um-site.jpg" alt="Foto de Vítor" width="300"
+            title="Foto de Vítor">
+        <article>
+            <p>
+                Olá, me chamo Vítor e este é meu portfólio pessoal!
+            </p>
+        </article>
+        <aside>
+            <h3>Habilidades</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </aside>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Projetos</h3>
+            <p>
+                Segue abaixo alguns projetos que desenvolvi!
+            </p>
+        </article>
+    </section>
+
+    <footer>
+
+        <p>Vítor Olegário Becker de Aquino</p>
+
+        <section id="contato">
+            <h2>Tem um projeto em mente?</h2>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone"><br><br>
+
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="Outros">Outros Assuntos</option>
+                </select><br><br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br><br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newletter?</label><br><br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+            <h2>Ou, se preferir, meus contatos são:</h2>
+
+            <address>
+                E-mail: <a href="mailto:vitor@vitor.com">vitor@vitor.com</a><br>
+                Telefone: <a href="tel:+5548999466910">+55 48 9.9946-6910</a><br>
+            </address>
+        </section>
+    </footer>
+</body>
+
+</html>
