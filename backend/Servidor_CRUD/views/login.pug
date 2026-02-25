@@ -1,0 +1,20 @@
+head
+  meta(charset='utf-8')
+  title LOGIN
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+
+  body
+    p 
+    .modal-dialog
+        .modal-content
+          // Modal Body
+          .modal-body
+            //#editForm.form(role='form' method='GET' action='https://www.google.com/')
+            form(role='form' method='POST' action='/')
+              div.form-group
+                label(for='name') User:
+                input#name.form-control(type='text', placeholder='digite o usuário.' name='user')
+              div.form-group
+                label(for='email') Senha:
+                input#email.form-control(type='password', placeholder='digite sua senha.' name='password')
+              button.btn.btn-primary(type="submit", name="asdf") Login

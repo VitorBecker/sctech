@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Formulário de Cadastro</h1>
+    
+    <div class="input-group">
+        <input type="email" id="email" placeholder="E-mail">
+        <span id="msgEmail" class="erro"></span>
+
+        <input type="tel" id="telefone" placeholder="Telefone (ex: 48999999999)">
+        <span id="msgTelefone" class="erro"></span>
+
+        <!-- código para implementar a senha. -->
+        <!-- <input type="password" id="senha" placeholder="Senha Forte">
+        <span id="msgSenha" class="erro"></span> -->
+        
+        
+        <!-- código para implementar o olhinho para ver a senha. -->
+        <div class="campo-senha-wrapper">
+            <input type="password" id="senha" placeholder="Senha Forte">
+            <span id="toggleSenha" class="olhinho-icon">👁️</span>
+        </div>
+
+        <!-- código para implementar barra de força da senha. -->
+        <div class="forca-container">
+            <div id="barraForca" class="barra"></div>
+        </div>
+        <span id="msgSenha" class="erro"></span>
+
+        <button id="btnValidar">Cadastrar</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

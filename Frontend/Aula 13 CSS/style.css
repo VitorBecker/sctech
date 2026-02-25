@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    gap: 10px;                  
+    grid-template-columns: minmax(max-content, 1fr) 2fr minmax(max-content, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh; 
+    background-color: #f0f0f0;
+}
+
+
+.header {
+    grid-column: 1 / -1;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1afaf;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav {
+    grid-column: 1 / -1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1afaf;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.asideesq {
+    grid-column: 1 / 2;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #d1afaf;
+    padding: 20px;
+    margin-left: 10px;  
+}
+
+.main {
+    grid-column: 2 / 3;         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #d1afaf;
+    padding: 20px;
+}
+
+.asidedir {
+    grid-column: 3 / 4;         
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    background-color: #d1afaf;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1afaf;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo da caixa interna que contém o nome */
+.inner-box {
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid black;
+    font-size:xx-large;
+}
+
+/* Cores das caixas */
+.header .inner-box {
+    background-color:rgb(70, 111, 168);
+}
+
+.nav .inner-box {
+    background-color:rgb(70, 111, 168);
+}
+
+.asideesq .inner-box {
+    background-color:rgb(70, 111, 168);
+}
+
+.main .inner-box {
+    background-color:rgb(70, 111, 168);
+}
+
+.asidedir .inner-box {
+    background-color:rgb(70, 111, 168);
+}
+
+.footer .inner-box {
+    background-color:rgb(70, 111, 168);
+}

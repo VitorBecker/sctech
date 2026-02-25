@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Sistema de Busca
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+  body
+    .container.mt-5
+      h2 Buscar Clientes
+      
+      // Formulário de Busca
+      form(action="clientes/procura" method="GET" class="form-inline mb-4")
+        input.form-control(type="text" name="search" placeholder="Nome ou Email..." value=search)
+        button.btn.btn-primary.ml-2(type="submit") Pesquisar
+        a.btn.btn-secondary.ml-2(href="/procura") Limpar
+
+      // Tabela de Resultados
+      table.table.table-bordered.mt-4
+        thead
+          tr
+            th Nome
+            th Email
+        tbody
+          if clients.length > 0
+            each client in clients
+              tr
+                td= client.nome
+                td= client.email
+          else
+            tr
+              td(colspan="2") Nenhum cliente encontrado.

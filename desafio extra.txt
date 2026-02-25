@@ -1,0 +1,17 @@
+2.2. SOLICITAÇÃO
+portfólio pessoal, reunindo projetos já existentes ou desenvolvidos ao longo do curso, com a finalidade de consolidar, em um único espaço digital, informações sobre sua formação e suas produções na área de programação. 
+
+3. ENTREGA
+A entrega de um único arquivo compactado (.zip ou .rar), com tamanho máximo de 20 MB, contendo todos os arquivos necessários para o funcionamento do projeto, incluindo: código-fonte utilizado e arquivo de documentação.
+
+A página deverá possuir, no mínimo, três seções, contemplando obrigatoriamente o nomedo estudante, uma descrição pessoal, a apresentação das habilidades técnicas e comportamentais, além de uma lista de projetos desenvolvidos (ou fictícios).
+
+Para cada projeto listado, devem ser informados o nome do projeto, uma breve descrição, o link da demonstração (caso exista) e as tecnologias utilizadas.
+
+Todas as informações do projeto deverão estar claramente documentadas em um arquivo de texto, que poderá estar nos formatos .txt, .doc, .docx, .pdf ou README.md, e que deverá ser incluído dentro da pasta compactada juntamente com o código da aplicação. Caso o aluno deseje, o código também poderá ser versionado no GitHub, desde que o arquivo compactado submetido na tarefa contenha todos os arquivos necessários para a avaliação.
+
+A distribuição do peso da avaliação prática extra se dará da seguinte forma:
+● Documentação: 30% do score final (no mínimo 400 caracteres, ótimo se tiver mais de 800.)
+● Linguagem de programação: 30% do score final (Foram utilizadas HTML, CSS e JavaScript.)
+● Codificação: 40% do score final (O arquivo submetido contém um projeto válido, que pode ser executado normalmente, sem erros críticos de execução.)
+

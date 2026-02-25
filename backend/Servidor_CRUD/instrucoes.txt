@@ -1,0 +1,29 @@
+
+comandos para realizar um API via express
+
+
+- para iniciar o npm e criar o package.json
+npm init
+
+- entrar no package.json e incluir/alterar a linha na mesma chave do "name" e "main".
+  "type": "module",
+
+- instalação do express
+npm i express
+> essa instalação criará uma dependência dentro do package.json
+
+
+-instalação do typescript, que tb fará a instalação de uma dependência dentro do package.json
+npm i typescript -D
+
+
+- agora para gerar o tsconfig, para realizar algumas configurações..
+npx tsc --init 
+
+
+- ir no tsconfig e alterar
+"target" para ES6
+
+- instalar o types do express para evitar problemas de tipagem com dados.
+npm install  @types/express -D
+

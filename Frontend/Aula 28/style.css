@@ -1,0 +1,136 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container do Formulário */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    color: #2d3436;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Grupo de Inputs */
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: 1px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #fcfcfc;
+}
+
+/* Efeito ao clicar no campo */
+input:focus {
+    outline: none;
+    border-color: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.2);
+    background-color: #fff;
+}
+
+/* Mensagens de Erro */
+.erro {
+    color: #d63031;
+    font-size: 12px;
+    margin-top: 4px;
+    margin-left: 2px;
+    font-weight: 500;
+    min-height: 18px; /* Mantém o espaço mesmo vazio */
+}
+
+/* Botão Estilizado */
+button {
+    margin-top: 25px;
+    padding: 15px;
+    background: linear-gradient(to right, #00b894, #00cec9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 184, 148, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* código para implementar o olhinho para ver a senha. */
+.campo-senha-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.olhinho-icon {
+    position: absolute;
+    right: 15px;
+    top: 28px; /* Ajuste conforme o seu margin-top do input */
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.6;
+}
+
+.olhinho-icon:hover {
+    opacity: 1;
+}
+
+
+
+/* código para implementar barra de força da senha. */
+.forca-container {
+    width: 100%;
+    height: 6px;
+    background-color: #ddd;
+    border-radius: 3px;
+    margin-top: 5px;
+    overflow: hidden; /* Garante que a barra interna não saia do limite */
+}
+
+.barra {
+    height: 100%;
+    width: 0%; /* Começa em 0 */
+    transition: all 0.4s ease;
+}
+
+/* Cores dinâmicas que usaremos no JS */
+.fraca { width: 33%; background-color: #ff4757; }
+.media { width: 66%; background-color: #ffa502; }
+.forte { width: 100% !important; background-color: #2ed573 !important; }
