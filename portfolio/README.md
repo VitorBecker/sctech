@@ -24,6 +24,9 @@ Fiz um repositório de minha jornada na **SCTech**, a estrutura está organizada
 - `/backend`: Contém os exercícios práticos.
 - `/Portfolio`: Contém este projeto.
 
+Os links estão inseridos neste portfólio, basta clicar e conferir.
+
+
 ## Quem é o Vítor?
 
 Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Trabalho na CAIXA ECONÔMICA FEDERAL e, atualmente, estou focando energias para uma transição para a área de tecnologia, pois fiz diversos cursos na área mas acabei nunca atuando, portanto, estou buscando mais conhecimentos para migrar de vez, e quem sabe, um dia montar minha empresa de tecnologia, que é um desejo de longa data.
