@@ -1,4 +1,4 @@
-// Aguarda o carregamento da página
+
 document.addEventListener('DOMContentLoaded', function() {
 
     // menu hamburguer

@@ -1,0 +1,31 @@
+# Portfólio - Vítor Olegário Becker de Aquino
+
+Bem-vindo ao meu repositório, este projeto foi desenvolvido para consolidar meus aprendizados em desenvolvimento Web e apresentar minha trajetória nos estudos e intenção de continuar.
+
+## Sobre o Projeto
+
+O site é um portfólio responsivo que apresenta:
+- **Habilidades Técnicas:** Divisão entre Full Stack e BI/Finanças.
+- **Jornada de Aprendizado:** Cards de projetos linkados diretamente aos exercícios das aulas.
+- **Formulário de Contato:** Implementação de validação simples com JavaScript.
+- **Design Responsivo:** Com adaptação para dispositivos móveis, como exemplo tendo o menu hambúrguer.
+
+## Tecnologias Utilizadas
+
+- **HTML5**: Estruturação semântica.
+- **CSS3**: Layouts modernos com Grid e Flexbox, além de gradientes e efeitos de transição.
+- **JavaScript**: Lógica para o menu mobile e manipulação de eventos do formulário.
+- **Icons8 / DevIcon**: Identidade visual através de ícones tecnológicos.
+
+## Estrutura de Pastas
+
+Como este repositório faz parte da minha jornada na **SCTech**, a estrutura está organizada da seguinte forma:
+- `/Frontend`: Contém as aulas e exercícios práticos.
+- `/Portfolio`: (Esta pasta) Contém o código fonte deste site.
+
+## 👤 Quem é o Vítor?
+
+Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Atualmente, estou em transição para a área de tecnologia, focando em como a programação e o BI podem otimizar processos financeiros e de auditoria.
+
+---
+📫 **Vamos conversar?** Você pode entrar em contato comigo através do formulário no site ou pelo meu e-mail: [vitor@vitor.com]
