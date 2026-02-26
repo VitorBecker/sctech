@@ -23,9 +23,9 @@ Como este repositório faz parte da minha jornada na **SCTech**, a estrutura est
 - `/Frontend`: Contém as aulas e exercícios práticos.
 - `/Portfolio`: (Esta pasta) Contém o código fonte deste site.
 
-## 👤 Quem é o Vítor?
+## Quem é o Vítor?
 
-Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Atualmente, estou em transição para a área de tecnologia, focando em como a programação e o BI podem otimizar processos financeiros e de auditoria.
+Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Trabalho na CAIXA ECONÔMICA FEDERAL e, atualmente, estou focando energias para uma transição para a área de tecnologia, buscando mais conhecimentos para atuar na área, e quem sabe, um dia montar minha empresa de tecnologia, que é um desejo de longa data.
 
 ---
-📫 **Vamos conversar?** Você pode entrar em contato comigo através do formulário no site ou pelo meu e-mail: [vitor@vitor.com]
+📫 **Vamos conversar?** Você pode entrar em contato comigo através do meu e-mail: [vitorolegario@gmail.com], através do meu celular: [48.99946-6915]
