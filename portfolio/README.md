@@ -19,13 +19,14 @@ O site é um portfólio responsivo que apresenta:
 
 ## Estrutura de Pastas
 
-Como este repositório faz parte da minha jornada na **SCTech**, a estrutura está organizada da seguinte forma:
-- `/Frontend`: Contém as aulas e exercícios práticos.
-- `/Portfolio`: (Esta pasta) Contém o código fonte deste site.
+Fiz um repositório de minha jornada na **SCTech**, a estrutura está organizada da seguinte forma:
+- `/Frontend`: Contém os exercícios práticos.
+- `/backend`: Contém os exercícios práticos.
+- `/Portfolio`: Contém este projeto.
 
 ## Quem é o Vítor?
 
-Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Trabalho na CAIXA ECONÔMICA FEDERAL e, atualmente, estou focando energias para uma transição para a área de tecnologia, buscando mais conhecimentos para atuar na área, e quem sabe, um dia montar minha empresa de tecnologia, que é um desejo de longa data.
+Sou formado em Administração de Cidades e pós-graduado em **Controladoria e Finanças Corporativas**. Trabalho na CAIXA ECONÔMICA FEDERAL e, atualmente, estou focando energias para uma transição para a área de tecnologia, pois fiz diversos cursos na área mas acabei nunca atuando, portanto, estou buscando mais conhecimentos para migrar de vez, e quem sabe, um dia montar minha empresa de tecnologia, que é um desejo de longa data.
 
 ---
 📫 **Vamos conversar?** Você pode entrar em contato comigo através do meu e-mail: [vitorolegario@gmail.com], através do meu celular: [48.99946-6915]
